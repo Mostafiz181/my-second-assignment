@@ -369,3 +369,173 @@ a {
 /* =============================================================
                 feature part end
 ================================================================ */
+
+
+/* =============================================================
+                skill part css start 
+================================================================ */
+#skill-part {
+
+    padding: 20px 0;
+
+}
+
+#skill-part .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+
+#skill-part .container .left {
+    width: 50%;
+
+}
+
+#skill-part .container .right {
+    width: 50;
+    position: relative;
+
+
+
+}
+
+
+#skill-part .container .skill-title h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    position: relative;
+}
+
+#skill-part .container .skill-title h1::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 90px;
+    background-color: #FF900E;
+    top: 10px;
+    left: -14px;
+    border-radius: 5px;
+}
+
+#skill-part .container .skill-title p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    
+}
+
+#skill-part .container .skill-details .skill-item {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(218, 205, 205);
+    margin: 10px 0;
+}
+
+#skill-part .container .skill-details .skill-item h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+
+}
+
+#skill-part .container .skill-details .skill-item h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+#skill-part .container .skill-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#skill-part .container .counter {
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -76px;
+    left: -100px;
+}
+
+#skill-part .container .counter h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#skill-part .container .counter h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffff;
+    text-align: center;
+}
+
+
+
+/* ============================================================ mobile device ====================================== */
+@media only screen and (max-width:688px) {
+
+    #skill-part .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #skill-part .container .counter {
+        bottom: -40px;
+        left: 40px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    #skill-part .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #skill-part .container .skill-img {
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    #skill-part .container .counter {
+
+        bottom: -106px;
+        left: 90px;
+    }
+    
+}
+
+/* ============================================================ mobile device ====================================== */
+
+
+
+
+
+/* =============================================================
+                skill part css end 
+================================================================ */
