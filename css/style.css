@@ -1,18 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul,ol{
+ul,
+ol {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
@@ -22,35 +23,35 @@ a{
 /* ============================================================
                 navbar part start 
 =============================================================== */
-#navbar-part{
+#navbar-part {
     width: 100%;
     padding: 10px 0;
     background: rgba(255, 143, 14, 0.173);
-   
+
 }
 
-#navbar-part .container{
+#navbar-part .container {
     padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
 
-#navbar-part .container ul li{
+#navbar-part .container ul li {
     display: inline-block;
     margin-right: 20px;
 }
 
 
-#navbar-part .container .logo h1{
+#navbar-part .container .logo h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     font-weight: 700;
     color: #131313;
 }
 
-#navbar-part .container ul li a{
+#navbar-part .container ul li a {
     display: inline-block;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
@@ -59,7 +60,7 @@ a{
     transition: .4s;
 }
 
-#navbar-part .container ul li a:hover{
+#navbar-part .container ul li a:hover {
     color: #FF900E;
 }
 
@@ -67,35 +68,37 @@ a{
 
 @media only screen and (max-width:688px) {
 
-    #navbar-part .container{
+    #navbar-part .container {
         display: flex;
         flex-direction: column;
         width: 100%;
-       
+
     }
 
-    #navbar-part .container .text ul{
+    #navbar-part .container .text ul {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        
+
     }
-    
+
 }
+
 /* ====================================== mobile responsive ================================== */
 
 /* ====================================== tablet responsive =================================== */
 @media only screen and (min-width:689px) and (max-width:992px) {
 
-    #navbar-part .container{
+    #navbar-part .container {
         width: 100%;
         display: grid;
-        grid-template-columns:repeat(1,1fr) ;
+        grid-template-columns: repeat(1, 1fr);
 
-       
+
     }
-    
+
 }
+
 /* ====================================== tablet responsive =================================== */
 /* ============================================================
                 navbar part end 
@@ -104,18 +107,18 @@ a{
 /* =============================================================
                 banner part start 
 ================================================================ */
-#banner-part{
+#banner-part {
     width: 100%;
     padding: 50px 0;
     background: rgba(255, 143, 14, 0.173);
 }
 
-#banner-part .container{
+#banner-part .container {
     padding: 0 25px;
-    
+
 }
 
-#banner-part .text h1{
+#banner-part .text h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 64px;
     font-weight: 700;
@@ -135,21 +138,21 @@ a{
     padding-top: 30px;
 }
 
-#banner-part .text .btn{
+#banner-part .text .btn {
     display: flex;
     justify-content: center;
     padding: 30px 0;
-   
+
 }
 
-#banner-part .text .btn a:hover{
+#banner-part .text .btn a:hover {
     color: #FF900E;
     background-color: #ff8f0e5b;
 
 }
 
 
-#banner-part .text .btn a{
+#banner-part .text .btn a {
     display: inline-block;
     padding: 20px 25px;
     background-color: #FF900E;
@@ -158,10 +161,10 @@ a{
     font-weight: 600;
     color: #fff;
     border-radius: 8px;
-    transition: .4s ;
+    transition: .4s;
 }
 
-#banner-part .banner-img img{
+#banner-part .banner-img img {
     width: 100%;
 
 }
@@ -169,39 +172,200 @@ a{
 /* =================================================================== mobile device ================================================ */
 @media only screen and (max-width:688px) {
 
-    #banner-part .container{
+    #banner-part .container {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     #banner-part .text p {
 
-        padding:0px;
-     
+        padding: 0px;
+
     }
-    
+
 }
+
 /* =================================================================== mobile device ================================================ */
 
 /* ==================================================== tablet device ============================================================== */
 @media only screen and (min-width:689px) and (max-width:992px) {
-    #banner-part .container{
+    #banner-part .container {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    #banner-part .banner-img img{
+    #banner-part .banner-img img {
         width: 100%;
-        
-    
+
+
     }
 
-    
+
 }
+
 /* ==================================================== tablet device ============================================================== */
 
 /* =============================================================
                 banner part end 
+================================================================ */
+
+
+/* =============================================================
+                feature part start 
+================================================================ */
+
+#feature-part {
+    padding: 50px 0;
+}
+
+
+#feature-part .container {
+    padding: 0 25px;
+    display: flex;
+    gap: 50px;
+
+}
+
+#feature-part .feature-img {
+    width: 50%;
+
+}
+
+#feature-part .feature-img img {
+    width: 100%;
+
+}
+
+#feature-part .feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#feature-part .feature-text {
+    width: 50%;
+    padding-top: 150px;
+}
+
+#feature-part .feature-text h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+
+#feature-part .feature-text h1 span {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+#feature-part .feature-text h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E;
+}
+
+#feature-part .feature-text p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+#feature-part .feature-text .btn a {
+    font-family: 'Work Sans', sans-serif;
+    display: inline-block;
+    padding: 20px 24px;
+    background-color: #FF900E;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+
+#feature-part .feature-text .btn a:hover {
+    color: #FF900E;
+    background-color: #ff8f0e5b;
+}
+
+
+/* ===================================================== mobile responsive ================================================ */
+@media only screen and (max-width:688px) {
+
+
+
+    #feature-part .container {
+        width: 100%;
+        flex-direction: column;
+        flex-direction: column-reverse;
+
+    }
+
+    #feature-part .feature-img {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    #feature-part .feature-img img {
+        width: 100%;
+    }
+
+
+
+    #feature-part .feature-text {
+        padding-top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+}
+
+/* ===================================================== mobile responsive ================================================ */
+
+
+/* =============================================== tab device ============================================== */
+
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+
+
+    #feature-part .feature-img {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    #feature-part .container {
+        width: 100%;
+        flex-direction: column;
+
+
+    }
+
+
+}
+
+
+/* =============================================== tab device ============================================== */
+
+
+/* =============================================================
+                feature part end
 ================================================================ */
