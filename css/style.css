@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ========================================== common css end ================================================= */
+
+/* ============================================================
+                navbar part start 
+=============================================================== */
+#navbar-part{
+    width: 100%;
+    padding: 10px 0;
+    background: rgba(255, 143, 14, 0.487);
+   
+}
+
+#navbar-part .container{
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#navbar-part .container ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+#navbar-part .container .logo h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+#navbar-part .container ul li a{
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* ====================================== mobile responsive ================================== */
+
+@media only screen and (max-width:688px) {
+
+    #navbar-part .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+
+    #navbar-part .container .text ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    
+}
+/* ====================================== mobile responsive ================================== */
+
+/* ====================================== tablet responsive =================================== */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    #navbar-part .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+
+       
+    }
+    
+}
+/* ====================================== tablet responsive =================================== */
+/* ============================================================
+                navbar part end 
+=============================================================== */
