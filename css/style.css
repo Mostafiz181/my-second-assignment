@@ -79,6 +79,7 @@ a {
         display: flex;
         flex-direction: column;
         gap: 20px;
+    
 
     }
 
@@ -432,7 +433,7 @@ a {
 }
 
 #skill-part .container .skill-details .skill-item {
-    width: 400px;
+    width: 400px; 
     padding: 20px;
     box-shadow: 0px 0px 10px rgb(218, 205, 205);
     margin: 10px 0;
@@ -460,32 +461,48 @@ a {
 
 }
 
-#skill-part .container .counter {
-    width: 342px;
-    height: 200px;
-    background-color: #FF900E;
-    border-radius: 8px;
-    position: absolute;
-    bottom: -76px;
-    left: -100px;
-}
 
-#skill-part .container .counter h1 {
+
+#skill-part .container .counter a {
+     width: 342px;
+    padding: 40px;
+    display: inline-block;
+    background-color: #FF900E;
+    cursor: pointer;
+    border-radius: 8px;
     font-family: 'Work Sans', sans-serif;
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 700;
     color: #fff;
-    text-align: center;
-    padding-top: 50px;
+    transition: .4s;
+
 }
 
-#skill-part .container .counter h2 {
+#skill-part .container .counter a span{
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
     font-weight: 500;
     color: #ffff;
-    text-align: center;
+    transition: .4s;
 }
+
+#skill-part .container .counter a:hover span{
+    color: #FF900E;
+}
+
+
+#skill-part .container .counter {
+    position: absolute;
+    bottom: -80px;
+    left: -100px;
+    
+}
+
+#skill-part .container .counter a:hover{
+    background-color: #ff8f0e5b;
+    color: #FF900E;
+}
+
 
 
 
@@ -499,9 +516,19 @@ a {
     }
 
     #skill-part .container .counter {
-        bottom: -40px;
-        left: 40px;
+        bottom: -50px;
+        left: 0px;
     }
+
+
+
+
+    #skill-part .container .skill-details .skill-item {
+        width: 100%;
+    }
+
+
+
 
 
 
@@ -528,11 +555,22 @@ a {
     
     }
 
-    #skill-part .container .counter {
 
-        bottom: -106px;
-        left: 90px;
+
+    #skill-part .container .skill-details .skill-item {
+        width: 100%;
     }
+
+
+
+
+    #skill-part .container .counter {
+        bottom: -40px;
+        left: 0px;
+    }
+
+
+
     
 }
 
@@ -595,6 +633,149 @@ a {
 
 /* ================================================ mobile device ================================= */
 
+/* ================================================ tablet device ================================ */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    #fact-part .container{
+        width: 100%;
+    }
+
+    #fact-part .fact-title h1{
+        text-align: center;
+    }
+
+    #fact-part .fact-title p{
+        text-align: center;
+    }
+    
+}
+/* ================================================ tablet device ================================ */
+
 /* =============================================================
                 fact part end
+================================================================ */
+
+/* =============================================================
+                award part start 
+================================================================ */
+#award {
+    padding: 20px 0;
+
+}
+
+#award .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#award .award-item{
+    width: 20%;
+    height: 200px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: .4s;
+}
+
+#award .award-item:hover{
+
+    border: 2px solid #FF900E;
+    background-color: #ff8f0e80;
+    cursor: pointer;
+
+}
+
+#award .award-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#award .award-item img{
+    transform: scale(1);
+    transition: .4s;
+}
+#award .award-item:hover img{
+    transform: scale(1.3) rotateY(190deg);
+}
+
+
+
+#award .award-item h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    transition: .4s;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#award .award-item:hover h1{
+    color: #fff;
+}
+
+#award .award-item p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    transition: .4s;
+ 
+    
+}
+
+#award .award-item:hover p{
+    color: #fff;
+}
+
+/* ======================================================== mobile device ========================================= */
+@media only screen  and (max-width:688px){
+
+    #award .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        gap: 20px;
+        width: 100%;
+       
+    }
+
+    #award .award-item{
+        width: 100%;
+    }
+
+
+    
+}
+/* ======================================================== mobile device ========================================= */
+
+/* ======================================================== tablet device ========================================= */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    #award .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+        width: 100%;
+     
+       
+    }
+
+    #award .award-item{
+        width: 100%;
+    }
+
+
+
+    
+}
+/* ======================================================== tablet device ========================================= */
+
+
+/* =============================================================
+                award part end
 ================================================================ */
