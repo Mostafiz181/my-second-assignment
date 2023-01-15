@@ -83,6 +83,13 @@ a {
 
     }
 
+    #navbar-part .container .logo h1 {
+    
+        font-size: 30px;
+
+
+    }
+
 }
 
 /* ====================================== mobile responsive ================================== */
@@ -183,6 +190,22 @@ a {
 
         padding: 0px;
 
+    }
+
+    #banner-part .text h1 {
+        font-size: 30px;
+
+    }
+
+    #banner-part .text p {
+
+        font-size: 14px;
+  
+    }
+
+    #banner-part .banner-img img {
+        width: 100%;
+    
     }
 
 }
