@@ -914,3 +914,173 @@ a {
 /* ==============================================================
                 sponsorship part end
 ================================================================= */
+
+
+/* =============================================================
+                gallery part start 
+================================================================ */
+#gallery{
+    padding: 50px 0;
+    
+}
+
+#gallery .container .gallery-title h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#gallery .container .gallery-title p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#gallery .container .gallery-item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#gallery .container .gallery-item .gal-1{
+    width: 23%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#gallery .container .gallery-item .gal-1 img{
+    width: 105%;
+    height: 105%;
+}
+
+#gallery .container .gallery-item .gal-1 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #ff8f0e62;
+    transition: .4s;
+}
+
+#gallery .container .gallery-item .gal-1:hover .overlay{
+    height: 100%;
+
+
+}
+
+
+#gallery .container .gallery-item .gal-1 .overlay a {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: #FF900E;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 50px;
+    transition: .4s;
+
+}
+
+#gallery .container .gallery-item .gal-1 .overlay a:hover{
+    background-color: #ffff;
+    color: #FF900E;
+}
+
+#gallery .container .gallery-item .gal-1 .overlay .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+/* =============================================================== mobile device ====================================== */
+@media only screen and (max-width:688px) {
+
+    #gallery .container{
+        width: 100%;
+    }
+    #gallery .container .gallery-item{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+
+    #gallery .container .gallery-title h1{
+        text-align: center;
+    
+    }
+
+    #gallery .container .gallery-title p{
+
+        text-align: center;
+
+    }
+
+    #gallery .container .gallery-item .gal-1{
+        width: 100%;
+
+    }
+
+    #gallery .container .gallery-item .gal-1 .overlay .btn {
+    
+        left: 150px;
+    }
+    
+}
+/* =============================================================== mobile device ====================================== */
+
+/* ============================================================== tablet device ======================================= */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+        #gallery .container{
+        width: 100%;
+    }
+
+    #gallery .container .gallery-item{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 20px;
+    }
+
+    #gallery .container .gallery-title h1{
+        text-align: center;
+    
+    }
+
+    #gallery .container .gallery-title p{
+
+        text-align: center;
+
+    }
+
+    #gallery .container .gallery-item .gal-1{
+        width: 100%;
+
+    }
+
+    #gallery .container .gallery-item .gal-1 .overlay .btn {
+    
+        left: 150px;
+    }
+}
+/* ============================================================== tablet device ======================================= */
+
+/* =============================================================
+                gallery part end
+================================================================ */
