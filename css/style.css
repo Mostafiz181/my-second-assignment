@@ -332,7 +332,7 @@ a {
     #feature-part .container {
         width: 100%;
         flex-direction: column;
-        /* flex-direction: column-reverse; */
+        
 
     }
 
@@ -353,6 +353,13 @@ a {
         padding-top: 50px;
         width: 100%;
         text-align: center;
+    }
+
+    #feature-part .feature-text h1 {
+
+        font-size: 30px;
+        
+ 
     }
 
 
@@ -548,6 +555,19 @@ a {
 
     #skill-part .container .skill-details .skill-item {
         width: 100%;
+    }
+
+    #skill-part .container .skill-title h1 {
+      
+        font-size: 30px;
+   
+    }
+
+    #skill-part .container .skill-title p {
+     
+        font-size: 14px;
+     
+    
     }
 
 
