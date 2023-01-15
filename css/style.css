@@ -26,7 +26,7 @@ a {
 #navbar-part {
     width: 100%;
     padding: 10px 0;
-    background: rgba(255, 143, 14, 0.173);
+    background: #FFF4E7;
 
 }
 
@@ -111,7 +111,7 @@ a {
 #banner-part {
     width: 100%;
     padding: 50px 0;
-    background: rgba(255, 143, 14, 0.173);
+    background: #FFF4E7;
 }
 
 #banner-part .container {
@@ -1083,4 +1083,64 @@ a {
 
 /* =============================================================
                 gallery part end
+================================================================ */
+
+/* =============================================================
+                copyright part start
+================================================================ */
+
+#copyright{
+    margin-top: 100px;
+}
+
+
+#copyright .container{
+    background-color: #FFF4E7;
+    padding-top: 40px;
+    padding-bottom: 41px;
+}
+
+#copyright .container p{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+}
+
+/* ================================================= mobile device ============================================ */
+@media only screen and (max-width:688px) {
+
+    #copyright .container{
+        width: 100%;
+    }
+
+    #copyright .container p{
+        width: 100%;
+        text-align: center;
+    }
+    
+
+    
+}
+/* ================================================= mobile device ============================================ */
+
+/* ================================================= tab device =============================================== */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    #copyright .container{
+        width: 100%;
+    }
+
+    #copyright .container p{
+        width: 100%;
+        text-align: center;
+    }
+    
+    
+}
+/* ================================================= tab device =============================================== */
+
+/* =============================================================
+                copyright part end
 ================================================================ */
