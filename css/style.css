@@ -309,7 +309,7 @@ a {
     #feature-part .container {
         width: 100%;
         flex-direction: column;
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
 
     }
 
