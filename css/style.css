@@ -79,7 +79,7 @@ a {
         display: flex;
         flex-direction: column;
         gap: 20px;
-    
+
 
     }
 
@@ -429,11 +429,11 @@ a {
     color: #727272;
     padding-top: 24px;
     padding-bottom: 30px;
-    
+
 }
 
 #skill-part .container .skill-details .skill-item {
-    width: 400px; 
+    width: 400px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgb(218, 205, 205);
     margin: 10px 0;
@@ -464,7 +464,7 @@ a {
 
 
 #skill-part .container .counter a {
-     width: 342px;
+    width: 342px;
     padding: 40px;
     display: inline-block;
     background-color: #FF900E;
@@ -478,7 +478,7 @@ a {
 
 }
 
-#skill-part .container .counter a span{
+#skill-part .container .counter a span {
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
     font-weight: 500;
@@ -486,7 +486,7 @@ a {
     transition: .4s;
 }
 
-#skill-part .container .counter a:hover span{
+#skill-part .container .counter a:hover span {
     color: #FF900E;
 }
 
@@ -495,10 +495,10 @@ a {
     position: absolute;
     bottom: -80px;
     left: -100px;
-    
+
 }
 
-#skill-part .container .counter a:hover{
+#skill-part .container .counter a:hover {
     background-color: #ff8f0e5b;
     color: #FF900E;
 }
@@ -552,7 +552,7 @@ a {
     #skill-part .container .skill-img {
         width: 100%;
         height: 100%;
-    
+
     }
 
 
@@ -571,7 +571,7 @@ a {
 
 
 
-    
+
 }
 
 /* ==================================================== tab device ======================================== */
@@ -589,22 +589,22 @@ a {
     padding: 20px 0;
 }
 
-#fact-part .container{
+#fact-part .container {
     padding: 0 25px;
 }
 
-#fact-part .fact-title{
+#fact-part .fact-title {
     margin-top: 100px;
 }
 
-#fact-part .fact-title h1{
+#fact-part .fact-title h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     font-weight: 700;
     color: #131313;
 }
 
-#fact-part .fact-title p{
+#fact-part .fact-title p {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -615,20 +615,20 @@ a {
 
 /* ================================================ mobile device ================================= */
 
-@media only screen and (max-width:688px)  {
-    #fact-part .container{
+@media only screen and (max-width:688px) {
+    #fact-part .container {
         width: 100%;
     }
 
 
-    #fact-part .fact-title h1{
+    #fact-part .fact-title h1 {
         text-align: center;
     }
 
-    #fact-part .fact-title p{
+    #fact-part .fact-title p {
         text-align: center;
     }
-    
+
 }
 
 /* ================================================ mobile device ================================= */
@@ -637,19 +637,20 @@ a {
 
 @media only screen and (min-width:688px) and (max-width:992px) {
 
-    #fact-part .container{
+    #fact-part .container {
         width: 100%;
     }
 
-    #fact-part .fact-title h1{
+    #fact-part .fact-title h1 {
         text-align: center;
     }
 
-    #fact-part .fact-title p{
+    #fact-part .fact-title p {
         text-align: center;
     }
-    
+
 }
+
 /* ================================================ tablet device ================================ */
 
 /* =============================================================
@@ -664,13 +665,13 @@ a {
 
 }
 
-#award .container{
+#award .container {
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
 }
 
-#award .award-item{
+#award .award-item {
     width: 20%;
     height: 200px;
     border: 2px solid transparent;
@@ -678,7 +679,7 @@ a {
     transition: .4s;
 }
 
-#award .award-item:hover{
+#award .award-item:hover {
 
     border: 2px solid #FF900E;
     background-color: #ff8f0e80;
@@ -686,24 +687,25 @@ a {
 
 }
 
-#award .award-item{
+#award .award-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#award .award-item img{
+#award .award-item img {
     transform: scale(1);
     transition: .4s;
 }
-#award .award-item:hover img{
+
+#award .award-item:hover img {
     transform: scale(1.3) rotateY(190deg);
 }
 
 
 
-#award .award-item h1{
+#award .award-item h1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     font-size: 45px;
@@ -713,66 +715,68 @@ a {
     padding-bottom: 5px;
 }
 
-#award .award-item:hover h1{
+#award .award-item:hover h1 {
     color: #fff;
 }
 
-#award .award-item p{
+#award .award-item p {
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #727272;
     transition: .4s;
- 
-    
+
+
 }
 
-#award .award-item:hover p{
+#award .award-item:hover p {
     color: #fff;
 }
 
 /* ======================================================== mobile device ========================================= */
-@media only screen  and (max-width:688px){
+@media only screen and (max-width:688px) {
 
-    #award .container{
+    #award .container {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         gap: 20px;
         width: 100%;
-       
+
     }
 
-    #award .award-item{
+    #award .award-item {
         width: 100%;
     }
 
 
-    
+
 }
+
 /* ======================================================== mobile device ========================================= */
 
 /* ======================================================== tablet device ========================================= */
 @media only screen and (min-width:689px) and (max-width:992px) {
 
-    #award .container{
+    #award .container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap: 20px;
         width: 100%;
-     
-       
+
+
     }
 
-    #award .award-item{
+    #award .award-item {
         width: 100%;
     }
 
 
 
-    
+
 }
+
 /* ======================================================== tablet device ========================================= */
 
 
@@ -784,7 +788,7 @@ a {
                 sponsor part start 
 ================================================================ */
 
-#sponsor .container .text h1{
+#sponsor .container .text h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     font-weight: 700;
@@ -794,7 +798,7 @@ a {
     padding-bottom: 24px;
 }
 
-#sponsor .container .text p{
+#sponsor .container .text p {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -807,36 +811,106 @@ a {
 /* ========================================================= mobile device ================================================ */
 @media only screen and (max-width:688px) {
 
-    #sponsor .container{
+    #sponsor .container {
         width: 100%;
     }
-    #sponsor .container .text h1{
+
+    #sponsor .container .text h1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    #sponsor .container .text p{
+    #sponsor .container .text p {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
-    
+
+
 }
+
 /* ========================================================= mobile device ================================================ */
 
 /* ======================================================== tab device =================================================== */
-    @media only screen and (min-width:689px) and (max-width:992px) {
-        #sponsor .container{
-            width: 100%;
-        }
-
-
-        
+@media only screen and (min-width:689px) and (max-width:992px) {
+    #sponsor .container {
+        width: 100%;
     }
+
+
+
+}
+
 /* ======================================================== tab device =================================================== */
 
 /* =============================================================
                 sponsor part end 
 ================================================================ */
+
+
+/* ==============================================================
+                sponsorship part start
+================================================================= */
+
+#sponsorship {
+    padding: 20px 0;
+}
+
+#sponsorship .container {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#sponsorship .container .sponsor-item img {
+    width: 100%;
+
+
+}
+
+
+/* ========================================== mobile device ===================================== */
+@media only screen and (max-width:688px) {
+    #sponsorship .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+
+    #sponsorship .container .sponsor-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+    }
+
+}
+
+/* ========================================== mobile device ===================================== */
+
+/* ========================================== tab device ======================================== */
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    #sponsorship .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+}
+
+/* ========================================== tab device ======================================== */
+
+/* ==============================================================
+                sponsorship part end
+================================================================= */
